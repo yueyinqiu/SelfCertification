@@ -2,7 +2,7 @@
 This project helps you identify me.  
 It means that you can check whether a file is published by me or not.
 
-## How is it implemented?
+## How it works?
 It's a very easy process.  But if you don't learn something about the asymmetric cryptography, it may still confuse you. In that case, you can just skip this part.  
 Compute the hash value of the file first(md5). Then just sign the hash by my private key(RSA). Now everything has been done.  
 You can compute the hash, then verify it by the signature with the public key. If they match, the file should be published by me.
